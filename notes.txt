@@ -1,0 +1,33 @@
+my_mvc_app/
+├── controllers/
+│   ├── DashboardController.php
+│   ├── EmployeeController.php
+│   ├── LoanController.php
+│   ├── LoanRequestController.php
+│   ├── LoginController.php
+│   └── PaymentController.php
+├── models/
+│   ├── Employee.php
+│   ├── Loan.php
+│   ├── LoanRequest.php
+│   └── User.php
+├── views/
+│   ├── dashboard.php
+│   ├── employee/
+│   │   ├── add.php
+│   │   ├── edit.php
+│   │   └── view.php
+│   ├── loan/
+│   │   ├── add.php
+│   │   ├── edit.php
+│   │   └── view.php
+│   ├── loan_request/
+│   │   ├── add.php
+│   │   ├── edit.php
+│   │   └── view.php
+│   ├── login.php
+│   └── payment/
+│       ├── add.php
+│       ├── edit.php
+│       └── view.php
+└── index.php
